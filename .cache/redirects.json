@@ -1,0 +1,32 @@
+[
+  {
+    "fromPath": "/index.html",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/"
+  },
+  {
+    "fromPath": "/blogs/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/blogs/introduction"
+  },
+  {
+    "fromPath": "/blogs",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/blogs/introduction"
+  },
+  {
+    "fromPath": "/guide/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/guide/introduction"
+  },
+  {
+    "fromPath": "/guide",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/guide/introduction"
+  }
+]

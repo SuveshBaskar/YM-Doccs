@@ -1,0 +1,19 @@
+{
+  "name": "my-docs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "yarn clean && gatsby build",
+    "start": "yarn clean && gatsby develop",
+    "eject": "antdsite-cli --eject",
+    "clean": "gatsby clean"
+  },
+  "devDependencies": {
+    "antdsite": "0.12.10",
+    "gatsby": "^2.13.45"
+  },
+  "dependencies": {
+    "@dovyp/vuepress-plugin-clipboard-copy": "^1.0.0-alpha.7",
+    "gatsby-remark-code-buttons": "^2.0.1"
+  }
+}
