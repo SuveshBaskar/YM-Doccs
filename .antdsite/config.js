@@ -5,59 +5,55 @@ module.exports = {
   footer: 'Copyright © 2019-present YellowMessenger💖',
   head: [['link', { rel: 'icon', href: '/favicon.png' }]],
   themeConfig: {
-    repo: 'YvesCoding/antdsite', // Assumes GitHub. Can also be a full Gitee url  Defaults to "GitHub"/"Gitee"/"Bitbucket" depending on `themeConfig.repo`
-    docsRepo: 'YvesCoding/antdsite', // Custom document repo, default to docsRepo
-    docsRelativeDir: 'packages/docs', // Relative path from project root to docs folder.
-    docsDir: 'docs', // The directory of document
-    docsBranch: 'master', // The git branch of document
-    editLinks: true, // // defaults to false, set to true to enable
-    editLinkText: 'Help us improve this page!', // custom text for edit link. Defaults to "Edit this page"
     nav: [
       {
-        text: 'Guide',
-        link: '/guide'
+        text: 'Beginner Guide',
+        link: '/beginner-guide'
       },
       {
-        text: 'Blog',
-        link: '/blogs'
+        text: 'Developer',
+        link: '/developer-guide'
+      },
+      {
+        text: 'Go to Console',
+        link: 'https://app.yellowmessenger.com'
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/beginner-guide/': [
         'introduction',
         {
-          title: 'Response Functions',
+          title: 'Design Guidelines',
           collapsable: false,
-          children: ['sendTextMessage', 'sendQuickReplies']
+          children: ['design-guide-line']
+        }
+      ],
+      '/developer-guide/': [
+        'introduction',
+        'test',
+        {
+          title: 'Functions',
+          collapsable: false,
+          children: [
+            'send-text-message',
+            'send-quick-replies',
+            'send-cards',
+            'custom-handler'
+          ]
         },
         {
           title: 'Validators',
           collapsable: false,
           children: [
-            {
-              title: 'Pattern Matching',
-              children: ['group-1-item']
-            },
-            {
-              title: 'Other Validators',
-              children: ['group-2-item']
-            }
+            'group-1-item',
+            'phone-validator',
+            'age-validator',
+            'dob-validator',
+            'name-validator',
+            'yes-no-validator'
           ]
         },
-        {
-          title: 'Design Guidelines',
-          collapsable: false,
-          children: ['designGuideLine']
-        },
-        'snippets'
-      ],
-      '/blogs/': [
-        'introduction',
-        {
-          title: 'Recent Blogs',
-          collapsable: false,
-          children: ['blogOne', 'blogTwo']
-        }
+        'further-reading'
       ]
     }
   }

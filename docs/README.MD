@@ -1,11 +1,11 @@
 ---
 heroImage: /favicon.png
 actionText: Get Started →
-actionLink: /guide/
+actionLink: /beginner-guide/
 home: true
 features:
   - title: Beginner Guide
-    details: A Quick start to begin with our Platform
+    details: A Quick start to build enterprise chatbots with our Platform
   - title: Code Snippets
     details: Verified Code Snippets to ease the development process
   - title: Chatbot Design
