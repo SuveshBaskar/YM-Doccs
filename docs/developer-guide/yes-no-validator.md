@@ -19,9 +19,9 @@ return new Promise(resolve => {
     let step = app.context['paramExpected'] // Step Slug name
 
     if (app.prediction.global_model.intent === 'yes' || app.prediction.global_model.intent === 'okay' && app.prediction.global_model.confidence >= 0.80) {
-        app.setStep(step, "YES").then(() => { resolve() }) // Step the step and resolve
+        app.setStep(step, "YES").then(() => { resolve() }) // Set the step and resolve
     } else if (app.prediction.global_model.intent === 'no' && app.prediction.global_model.confidence >= 0.80) {
-        app.setStep(step, "NO").then(() => { resolve() }) // Step the step and resolve
+        app.setStep(step, "NO").then(() => { resolve() }) // Set the step and resolve
     } else if (app.prediction.intent&& app.prediction.confidence >= 0.80) {
         return app.triggerIntent(app.prediction.intent) // Check if user asks something else we can answer
     } else {
