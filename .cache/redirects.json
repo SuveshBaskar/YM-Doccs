@@ -6,18 +6,6 @@
     "toPath": "/"
   },
   {
-    "fromPath": "/developer-guide/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/developer-guide/introduction"
-  },
-  {
-    "fromPath": "/developer-guide",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/developer-guide/introduction"
-  },
-  {
     "fromPath": "/beginner-guide/",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -28,5 +16,17 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/beginner-guide/introduction"
+  },
+  {
+    "fromPath": "/developer-guide/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/developer-guide/introduction"
+  },
+  {
+    "fromPath": "/developer-guide",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/developer-guide/introduction"
   }
 ]

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './404.css';
 
 export default () => (
@@ -8,7 +9,7 @@ export default () => (
         className="imgEle"
         style={{
           backgroundImage:
-            "url('https://gw.alipayobjects.com/zos/rmsportal/KpnpchXsobRgLElEozzI.svg')",
+            "url('https://gw.alipayobjects.com/zos/rmsportal/KpnpchXsobRgLElEozzI.svg')"
         }}
       />
     </div>
