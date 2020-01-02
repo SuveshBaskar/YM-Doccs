@@ -2,7 +2,7 @@ module.exports = {
   title: 'yellowmessenger',
   description: 'Documentation',
   logo: '/favicon.png',
-  footer: 'Copyright © 2019-present YellowMessenger💖',
+  footer: 'Copyright © 2019-present YellowMessenger',
   head: [['link', { rel: 'icon', href: '/favicon.png' }]],
   themeConfig: {
     repo: 'SuveshBaskar/YM-Doccs', // Assumes GitHub. Can also be a full Gitee url  Defaults to "GitHub"/"Gitee"/"Bitbucket" depending on `themeConfig.repo`
@@ -42,7 +42,7 @@ module.exports = {
         'test',
         {
           title: 'Functions',
-          collapsable: false,
+          collapsable: true,
           children: [
             'send-text-message',
             'send-quick-replies',
@@ -52,7 +52,7 @@ module.exports = {
         },
         {
           title: 'Validators',
-          collapsable: false,
+          collapsable: true,
           children: [
             'group-1-item',
             'phone-validator',
@@ -68,6 +68,7 @@ module.exports = {
             'yes-no-validator2'
           ]
         },
+        'ldap',
         'further-reading'
       ]
     }

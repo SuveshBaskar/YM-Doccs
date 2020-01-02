@@ -27,7 +27,7 @@ const sayTime = () => {
 const CodeCopy = props => {
   let { children } = props;
   const info = () => {
-    message.success('Copied with 💖');
+    message.success('Snippet Copied');
     const el = document.createElement('textarea');
 
     el.value = children;
