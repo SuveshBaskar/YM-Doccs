@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "antdsite": "0.12.10",
-    "gatsby": "^2.13.45"
+    "gatsby": "^4.25.7"
   },
   "dependencies": {
     "@dovyp/vuepress-plugin-clipboard-copy": "^1.0.0-alpha.7",
